@@ -1,0 +1,75 @@
+baseURL = "https://example.edu"
+languageCode = "en-us, zh"
+title = "Xuran Wang (汪旭冉)"
+theme = "avicenna"
+timeout=3000
+
+[params]
+  subtitle = "Postdoctoral Fellow"
+  interests = "Statistical Genetics and Genomics, High throughput data"
+  cv_name = "Xuran_Wang_CV.pdf"
+
+[[params.affilation]]
+  name = "Carnegie Mellon University"
+  position = "Postdoctoral Fellow"
+  contact = "xuranw@andrew.cmu.edu"
+
+[[params.social]]
+  name = "GitHub"
+  icon = "github"
+  url = "https://github.com/xuranw"
+
+[[params.social]]
+  name = "Twitter"
+  icon = "twitter"
+  url = "https://twitter.com/xuranw"
+
+[[params.introduction.paragraph]]
+  text="""Welcome to my homepage! I'm a postdoctoral fellow working with [Kathryn Roeder](http://www.stat.cmu.edu/~roeder/)
+  at Carnegie Mellon University."""
+
+[[params.introduction.paragraph]]
+  text=""" Before joining Kathryn's group, I earned my PhD degree in University of Pennsylvania. My [thesis](http://www.xuranw.github.io) 
+  "Mendelian randomization and single cell deconvolution: Two problems in statistical genetics"
+  is advised by [Nancy Zhang](https://statistics.wharton.upenn.edu/profile/nzh/).
+  I also worked with [Dylan Small](https://statistics.wharton.upenn.edu/profile/dsmall/) on Mendelian randomization problems 
+  and [Mingyao Li](https://www.med.upenn.edu/apps/faculty/index.php/g275/p8122973) on statistical modeling of single-cell RNA sequencing.
+ """
+ 
+[[params.introduction.paragraph]]
+ text = """ I recieved my Bachelor degree from Univeirsty of Science and Technolog of China ([USTC](https://en.ustc.edu.cn/)). """
+
+[[params.projects]]
+	[[params.projects.project]]
+		name = "Allele Speciffic Information in Mendelian Randomization"
+		description  = "Mendelian randomization (MR) is a method in biomedical research, which uses genotypes as instrument variables to estimate causal effect of exposure to outcome. Conventional estimation is two stage least squares (2SLS). With advanced sequencing technology, allele specific expression information became available. We present a new model to make usage of new information and estimate causal effect using maximum likelihood estimation (MLE). A comparison of precision between 2SLS and MLE is presented with different strength of instrument variables and confounder effect. We also illustrate its usage in finding downstream effect of lncRNA with genotype as instrument."
+		code_link = "https://github.com/xuranw/AllelicMR"
+
+[[params.projects.project]]
+		name = "Sensitivity Analysis and Power for Instrumental Variable Studies"
+		description  = "In observational studies to estimate treatment effects, unmeasured confounding is often a concern. The instrumental variable (IV) method can control for unmeasured confounding when there is a valid IV. To be a valid IV, a variable needs to be independent of unmeasured confounders and only affect the outcome through affecting the treatment. When applying the IV method, there is often concern that a putative IV is invalid to some degree. We present an approach to sensitivity analysis for the IV method, which examines the sensitivity of inferences to violations of IV validity. Our approach is based on extending the Anderson-Rubin test and is robust to weak IVs. A power formula for this sensitivity analysis is presented. We illustrate its usage via examples about Mendelian randomization studies and its implications via a comparison of using rare vs. common genetic variants as instruments."
+
+[[params.projects.project]]
+    name = "Bulk tissue cell type proportion deconvolution with multi-subject single cell reference"
+		description  = "Knowledge of cell type composition in disease relevant tissues is an important step towards the identification of cellular targets of disease. We present MuSiC, a method that utilizes cell-type specific gene expression from single-cell RNA sequencing (RNA-seq) data to characterize cell type compositions from bulk RNA-seq data in complex tissues. By appropriate weighting of genes showing cross-subject and cross-cell consistency, MuSiC enables the transfer of cell type-specific gene expression information from one dataset to another. When applied to pancreatic islet and whole kidney expression data in human, mouse, and rats, MuSiC outperformed existing methods, especially for tissues with closely related cell types. MuSiC enables the characterization of cellular heterogeneity of complex tissues for understanding of disease mechanisms. As bulk tissue data are more easily accessible than single-cell RNA-seq, MuSiC allows the utilization of the vast amounts of disease relevant bulk tissue RNA-seq data for elucidating cell type contributions in disease."
+		project_page = "https://xuranw.github.io/MuSiC"
+		code_link = "https://github.com/xuranw/MuSiC"
+
+[[params.publications]]
+ years = "2019"
+ 
+ [[params.publications.paper]]
+ name = "Bulk tissue cell type deconvolution with multi-subject single cell reference"
+ authors = "__Xuran Wang__, Jihwan Park, Katalin Susztak, Nancy R.Zhang, &Mingyao Li"
+ dest = "Nature Communications"
+ link = "https://www.nature.com/articles/s41467-018-08023-x"
+ code_link = "https://github.com/xuranw/MuSiC"
+ 
+ years = "2018"
+ 
+ [[params.publications.paper]]
+ name = "Sensitivity analysis and power for instrumental variable studies"
+ authors = "__Xuran Wang__, Yang Jiang, Nancy R.Zhang, & Dylan S.Small"
+ dest = "Biometrics"
+ link = "https://onlinelibrary.wiley.com/doi/abs/10.1111/biom.12873"
+ 
