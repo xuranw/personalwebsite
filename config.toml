@@ -54,8 +54,32 @@ timeout=3000
 		description  = "Knowledge of cell type composition in disease relevant tissues is an important step towards the identification of cellular targets of disease. We present MuSiC, a method that utilizes cell-type specific gene expression from single-cell RNA sequencing (RNA-seq) data to characterize cell type compositions from bulk RNA-seq data in complex tissues. By appropriate weighting of genes showing cross-subject and cross-cell consistency, MuSiC enables the transfer of cell type-specific gene expression information from one dataset to another. When applied to pancreatic islet and whole kidney expression data in human, mouse, and rats, MuSiC outperformed existing methods, especially for tissues with closely related cell types. MuSiC enables the characterization of cellular heterogeneity of complex tissues for understanding of disease mechanisms. As bulk tissue data are more easily accessible than single-cell RNA-seq, MuSiC allows the utilization of the vast amounts of disease relevant bulk tissue RNA-seq data for elucidating cell type contributions in disease."
 		project_page = "https://xuranw.github.io/MuSiC"
 		code_link = "https://github.com/xuranw/MuSiC"
+[[params.projects.project]]
+  name = "Constructing local cell specific networks from single cell data"
+  description = "Gene co-expression networks yield critical insights into biological processes, and single-cell RNA sequencing provides an opportunity to target inquiries at the cellular level.  However, due to the sparsity and heterogeneity of transcript counts, it is challenging to construct accurate gene networks.  We develop an approach that estimates cell-specific networks (CSN) for each cell using a method inspired by Dai et al. Although individual CSNs are estimated with considerable noise, average CSNs provide stable estimates of network structure, which provide better estimates of gene block structures than traditional measures.  The method, called locCSN, is based on a non-parametric investigation of the joint distribution of gene expression, hence it can readily detect nonlinear correlations, and it is more robust to distributional challenges.  The individual networks preserve information about the heterogeneity of the cells and having repeated estimates of network structure facilitates testing for difference in network structure between groups of cells. The original CSN algorithm showed promise; however, it had shortcomings which locCSN overcomes. Additionally, we propose new downstream analysis methods using CSNs, to utilize more fully the information contained within them. Finally, to further our understanding of autism spectrum disorder we examined the evolution of gene networks in fetal brain cells and compared the CSNs of cells sampled from case and control subjects to reveal intriguing patterns in gene co-expression changes."
+  code_link = "https://github.com/xuranw/locCSN"
 
 [[params.publications]]
+  years = "2021"
+  [[params.publications.paper]]
+  name = "Constructing local cell specific networks from single cell data"
+  authors = "__Xuran Wang__, David Choi, Kathryn Roeder"
+  dest = "bioRxiv"
+  link = "https://www.biorxiv.org/content/10.1101/2021.02.13.431104v1"
+  code_link = "https://github.com/xuranw/locCSN"
+
+  years = "2020"
+  [[params.publications.paper]]
+  name = "APOE and TREM2 regulate amyloid-responsive microglia in Alzheimer's disease"
+  authors = "Aviv T. Nguye, Kui Wang, Gang Hu, __Xuran Wang__, Zhen Miao, Joshua A. Azevedo, EunRan Suh, Vivianna M. Van Deerlin, David Choi, Kathryn Roeder, Mingyao Li, Edward B. Lee"
+  dest = "Acta Neuropathologica"
+  link = "https://link.springer.com/article/10.1007/s00401-020-02200-3"
+  
+  [[params.publications.paper]]
+  name = "Detecting cell-type-specific allelic expression imbalance by integrative analysis of bulk and single-cell RNA sequencing data"
+  authors = "Jiaxin Fan, __Xuran Wang__, Rui Xiao, Mingyao Li"
+  dest = "PLOS Genetics"
+ 
  years = "2019"
  
  [[params.publications.paper]]
