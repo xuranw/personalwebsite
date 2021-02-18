@@ -3,36 +3,38 @@
 	<head>
 	<meta name="generator" content="Hugo 0.55.6" />
 	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Xuran Wang (汪旭冉)- Postdoctoral Fellow</title><link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-	<link rel="manifest" href="site.webmanifest">
-	<link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Xuran Wang (汪旭冉)- Postdoctoral Fellow</title><link rel="apple-touch-icon" sizes="180x180" href=https://example.edu/apple-touch-icon.png>
+	<link rel="icon" type="image/png" sizes="32x32" href=https://example.edu/favicon-32x32.png>
+	<link rel="icon" type="image/png" sizes="16x16" href=https://example.edu/favicon-16x16.png>
+	<link rel="manifest" href=https://example.edu/site.webmanifest>
+	<link rel="mask-icon" href=https://example.edu/safari-pinned-tab.svg color="#5bbad5">
 	<meta name="msapplication-TileColor" content="#da532c">
 	<meta name="theme-color" content="#ffffff">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="alternate" type="application/rss+xml" href="/index.xml" title="Xuran Wang (汪旭冉)" />
+	<link rel="alternate" type="application/rss+xml" href="https://example.edu/index.xml" title="Xuran Wang (汪旭冉)" />
 	<meta property="og:title" content="Xuran Wang (汪旭冉)" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="/" />
+<meta property="og:url" content="https://example.edu/" />
 
-<meta property="og:updated_time" content="2015-07-23T21:13:14-05:00"/>
+<meta property="og:updated_time" content="2020-12-01T21:13:14-05:00"/>
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Xuran Wang (汪旭冉)"/>
 <meta name="twitter:description" content=""/>
 <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:500,100,300" rel="stylesheet">
 
-	<link rel="stylesheet" type="text/css" media="screen" href="css/normalize.css" />
-	<link rel="stylesheet" type="text/css" media="screen" href="css/main.css" /><script src="js/feather.min.js"></script><script src="js/main.js"></script>
+	<link rel="stylesheet" type="text/css" media="screen" href=https://example.edu/css/normalize.css />
+	<link rel="stylesheet" type="text/css" media="screen" href=https://example.edu/css/main.css/>
+
+	<script src=https://example.edu/js/feather.min.js></script><script src=https://example.edu/js/main.js></script>
 </head>
 
 
 	<body>
 		<div class="container wrapper">
 			<div class="header">
-	<img src= profile.jpg class="profile_image">
+	<img src=https://example.edu/profile.jpg class="profile_image">
 	<h1 class="site-title">Xuran Wang (汪旭冉)</h1>
 	<div class="site-affilation">
 		<span class="affilation"><ul class="flat">
@@ -54,6 +56,14 @@
 	<nav class="nav">
 		<ul class="flat">
 			
+			<li><a href="/">Home</a></li>
+			
+			<li><a href="/post">Projects</a></li>
+			
+			<li><a href="/about">About Me</a></li>
+			
+			<li><a href="/post">中文</a></li>
+			
 		</ul>
 	</nav>
 </div>
@@ -63,7 +73,7 @@
   at Carnegie Mellon University.
 	</span>
 	<br><span>
-		Before joining Kathryn&rsquo;s group, I earned my PhD degree in University of Pennsylvania. My <a href="Xuran_Wang_thesis.pdf">thesis</a>
+		Before joining Kathryn&rsquo;s group, I earned my PhD degree in University of Pennsylvania. My <a href="http://www.xuranw.github.io">thesis</a>
   &ldquo;Mendelian randomization and single cell deconvolution: Two problems in statistical genetics&rdquo;
   is advised by <a href="https://statistics.wharton.upenn.edu/profile/nzh/">Nancy Zhang</a>.
   I also worked with <a href="https://statistics.wharton.upenn.edu/profile/dsmall/">Dylan Small</a> on Mendelian randomization problems
@@ -78,6 +88,7 @@
 </div>
 
 			<div class="introduction">
+	
 	<h4>Projects</h4>
 	<ul>
 		<li>
@@ -134,11 +145,89 @@
 			
 
 		</li>
+		
+		<li>
+			<a href="" class="project"> Constructing local cell specific networks from single cell data</a>
+
+			
+			<span class="code_blog">
+				
+				[<a href="https://github.com/xuranw/locCSN">code</a>]
+				
+
+				
+			</span>
+			
+
+			
+			<span class="project_description">
+				Gene co-expression networks yield critical insights into biological processes, and single-cell RNA sequencing provides an opportunity to target inquiries at the cellular level.  However, due to the sparsity and heterogeneity of transcript counts, it is challenging to construct accurate gene networks.  We develop an approach that estimates cell-specific networks (CSN) for each cell using a method inspired by Dai et al. Although individual CSNs are estimated with considerable noise, average CSNs provide stable estimates of network structure, which provide better estimates of gene block structures than traditional measures.  The method, called locCSN, is based on a non-parametric investigation of the joint distribution of gene expression, hence it can readily detect nonlinear correlations, and it is more robust to distributional challenges.  The individual networks preserve information about the heterogeneity of the cells and having repeated estimates of network structure facilitates testing for difference in network structure between groups of cells. The original CSN algorithm showed promise; however, it had shortcomings which locCSN overcomes. Additionally, we propose new downstream analysis methods using CSNs, to utilize more fully the information contained within them. Finally, to further our understanding of autism spectrum disorder we examined the evolution of gene networks in fetal brain cells and compared the CSNs of cells sampled from case and control subjects to reveal intriguing patterns in gene co-expression changes.
+			</span>
+			
+
+		</li>
 		</ul>
+	
 </div>
 
 			<div class="introduction">
+	
 	<h4>Publications</h4><div class="year"></div>
+
+	<ul>
+		
+		<li>
+			
+			<a href="https://www.biorxiv.org/content/10.1101/2021.02.13.431104v1" class="publications"> Constructing local cell specific networks from single cell data, </a>
+			
+			bioRxiv.
+
+			
+			<span class="code_blog">
+				
+				[<a href="https://github.com/xuranw/locCSN">code</a>]
+				
+
+				
+			</span>
+			
+
+			<span class="collaborators">
+				<strong>Xuran Wang</strong>, David Choi, Kathryn Roeder
+			</span>
+		</li>
+		
+	</ul><div class="year"></div>
+
+	<ul>
+		
+		<li>
+			
+			<a href="https://link.springer.com/article/10.1007/s00401-020-02200-3" class="publications"> APOE and TREM2 regulate amyloid-responsive microglia in Alzheimer&#39;s disease, </a>
+			
+			Acta Neuropathologica.
+
+			
+
+			<span class="collaborators">
+				Aviv T. Nguye, Kui Wang, Gang Hu, <strong>Xuran Wang</strong>, Zhen Miao, Joshua A. Azevedo, EunRan Suh, Vivianna M. Van Deerlin, David Choi, Kathryn Roeder, Mingyao Li, Edward B. Lee
+			</span>
+		</li>
+		
+		<li>
+			
+			<p class="publications"> Detecting cell-type-specific allelic expression imbalance by integrative analysis of bulk and single-cell RNA sequencing data, </p>
+			
+			PLOS Genetics.
+
+			
+
+			<span class="collaborators">
+				Jiaxin Fan, <strong>Xuran Wang</strong>, Rui Xiao, Mingyao Li
+			</span>
+		</li>
+		
+	</ul><div class="year"></div>
 
 	<ul>
 		
