@@ -1,3 +1,2 @@
 # personalwebsite
-Xuran Wang's Personal Website
-Link: https://xuranw.github.io/personalwebsite/
+Xuran Wang's Personal Website. Link: https://xuranw.github.io/personalwebsite/
